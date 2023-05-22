@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Anton', sans-serif;
+  }
+
+.title fieldset {
+    border: solid 4px;
+    background-color: green;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .title h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+.title h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+.boxmodel fieldset{
+    border: solid 4px;
+    background-color: green;
+    padding: 1rem;
+}
+
+.boxmodel h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+.boxmodel p{
+    color: white;
+    text-align: center; 
+  }
+
+.boxmodel summary{
+    color: white;
+    text-align-last:center;
+}
+
+.boxmodelpic{
+    text-align: center;
+}
+
+.layoutproperties fieldset {
+    border: solid 4px;
+    background-color: green;
+    padding: 1rem;
+}
+
+.layoutproperties h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.layoutproperties p{
+    color: white;
+    text-align: center;
+}
+
+.layoutproperties details{
+    color: white;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#fblock{
+    color: black;
+    border-style: dashed;
+}
+
+#finline{
+    color: black;
+    border-style: dashed;
+}
+
+#finlineblock {
+    color: black;
+    border-style: dashed;
+}
+
+#fstatic{
+    color: black;
+    border-style: dashed;
+}
+
+#frelative{
+    color: black;
+    border-style: dashed;
+}
+
+#fabsolute{
+    color: black;
+    border-style: dashed;
+}
+
+#ffixed {
+    color: black;
+    border-style: dashed;
+}
+

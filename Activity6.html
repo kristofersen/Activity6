@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <title>Activity 6</title>
+</head>
+
+<body>
+    <header>
+        <section class="title">
+            <fieldset>
+                <h1>Activity 6</h1>
+                <h2>Box Model and Layout Properties</h2>
+            </fieldset>
+        </section>
+    </header>
+
+    <article class="boxmodel">
+        <fieldset>
+            <header><h1>Box Model</h1></header>
+                <p>
+                The CSS (Cascading Style Sheets) box model is a fundamental concept that describes how elements are rendered and structured in web development. <br/>
+                It defines the properties and dimensions of an element's rectangular box, including its content, padding, border, and margin. <br/>
+                <br/>
+                <strong>The CSS box model consists of the following components:</strong>
+                </p>
+                <br/>
+                <details>
+                    <summary>Content</summary>
+                    <p>
+                    It represents the actual content of an element, such as text, images, or other HTML elements.
+                    </p>
+                </details>
+                <details>
+                    <summary>Padding</summary>
+                    <p>
+                    Padding is the space between the content and the element's border.<br/>
+                    It provides spacing and separation between the content and the border. <br/>
+                    Padding can be set using the padding property in CSS.
+                    </p>
+                </details>
+                <details>
+                    <summary>Border</summary>
+                    <p>
+                    The border surrounds the padding and content of an element.<br/>
+                    It can be specified using the border property, and it can have different styles, colors, and widths.
+                    </p>
+                </details>
+                <details>
+                    <summary>Margin</summary>
+                    <p>
+                    The margin is the space outside the border and separates the element from other elements in the layout.<br/>
+                    It provides spacing between elements. The margin property is used to set the margin value.
+                    </p>
+                </details>
+        </fieldset>
+    </article>
+
+    <section class="boxmodelpic">
+        <figure>
+            <img src="https://iq.opengenus.org/content/images/2020/03/css_box_model.png" alt="CSS Box Model" id="Box-Model" />
+        </figure>
+    </section>
+
+    <article class="layoutproperties">
+        <fieldset>
+            <header><h1>7 Layout Properties</h1></header>
+            <p>
+            The CSS layout properties are used to control the positioning and arrangement of elements on a web page.<br/>
+            While there are numerous CSS properties that contribute to layout, here are seven commonly used layout properties:
+            </p>
+            <br/>
+            <p>
+                <strong>Display</strong>: This property defines the display behavior of an element. <br/>
+                It determines how elements are rendered in terms of their box type and flow. Common values include:
+                <details>
+                    <summary>block</summary>
+                    <fieldset id="fblock">
+                    <p>
+                    Renders an element as a block-level element, taking up the full width available.
+                    </p>
+                    </fieldset>
+                </details>
+                <details>
+                    <summary>inline</summary>
+                    <fieldset id="finline">
+                    <p>
+                    Renders an element as an inline-level element, allowing other elements to be on the same line.
+                    </p>
+                </fieldset>
+                </details>
+                <details>
+                    <summary>inline-block</summary>
+                    <fieldset id="finlineblock">
+                    <p>
+                    Renders an element as an inline-level element with block-like properties, allowing other elements to be on the same line but with block-level features such as setting width and height.
+                    </p>
+                    </fieldset>
+                </details>
+            </p>
+            <br/>
+            <p>
+                <strong>Postion</strong> This property specifies the positioning method used for an element. <br/>
+                It allows you to control how an element is placed in relation to its parent or other elements on the page. Common values include:
+                <details>
+                    <summary>static</summary>
+                    <fieldset id="fstatic">
+                    <p>
+                    Default positioning where the element follows the normal document flow.
+                    </p>
+                    </fieldset>
+                </details>
+                <details>
+                    <summary>relative</summary>
+                    <fieldset id="frelative">
+                    <p>
+                    Positions the element relative to its normal position.
+                    </p>
+                    </fieldset>
+                </details>
+                <details>
+                    <summary>absolute</summary>
+                    <fieldset id="fabsolute">
+                    <p>
+                    Positions the element relative to its closest positioned ancestor.
+                    </p>
+                    </fieldset>
+                </details>
+                <details>
+                    <summary>fixed</summary>
+                    <fieldset id="ffixed">
+                    <p>
+                    Positions the element relative to the browser window, even when scrolling.
+                    </p>
+                    </fieldset>
+                </details>
+            </p>
+            <br/>
+            <p>
+                <strong>Float</strong>: This property enables an element to float to the left or right of its parent container. <br/>
+                Floating elements can affect the positioning of other elements around them.   
+            </p>
+            <br/>
+            <p>
+                <strong>Clear</strong>: This property specifies which sides of an element are not allowed to be adjacent to floating elements.<br/>
+                It controls how an element behaves in relation to floated elements.
+            </p>
+            <br/>
+            <p>
+                <strong>Flexbox</strong>: The Flexbox layout model provides a flexible way to arrange elements in a container. <br/>
+                It involves using properties like display: flex on the parent container and various properties to control the alignment, distribution, and ordering of the child elements.
+            </p>
+            <br/>
+            <p>
+                <strong>Grid</strong>: The CSS Grid layout model allows you to create complex two-dimensional layouts with rows and columns. <br/>
+                It involves defining a grid container and specifying the layout using properties like display: grid, grid-template-rows, grid-template-columns, and more.
+            </p>
+            <br/>
+            <p>
+                <strong>Overflow</strong>: This property controls how content that overflows its containing element is displayed. <br/>
+                It determines if scrollbars should be added, if content should be clipped, or if the content should be visible.
+            </p>
+        </fieldset>
+    </article>
+    <footer>
+        <p>
+            @Special thanks to ChatGPT. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
