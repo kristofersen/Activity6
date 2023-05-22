@@ -113,3 +113,23 @@ footer{
     border-style: dashed;
 }
 
+#fcontent {
+    color: black;
+    border-style: dashed;
+}
+
+#fpadding {
+    color: black;
+    border-style: dashed;
+}
+
+#fborder {
+    color: black;
+    border-style: dashed;
+}
+
+#fmargin {
+    color: black;
+    border-style: dashed;
+}
+
